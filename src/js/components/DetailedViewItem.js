@@ -136,9 +136,8 @@ width:100%;
 
 // functional component - no state
 
-function DetailedViewItem( item ) {
+function DetailedViewItem( {item} ) {
 
-    console.log('DV...............',item)
 
     const name = item.name;
     const id = item.id;
@@ -147,6 +146,7 @@ function DetailedViewItem( item ) {
     const description=item.description;
     const brewedDate = item.first_brewed;
     const foodPairing = item.food_pairing;
+
 
     return (
 

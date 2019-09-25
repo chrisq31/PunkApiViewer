@@ -48,7 +48,7 @@ console.log('props.loading' ,props.loading)
 
     return (
         <ItemsContainer className ="row">
-            {/*<DetailedViewItem item={props.post} />*/}
+            <DetailedViewItem item={props.post} />
         </ItemsContainer>
     )
 }
@@ -63,12 +63,14 @@ const mapDispatchToProps = dispatch => {
 
 const mapStateToProps = (state) => {
 
+    console.log('state DV : ', state)
+
     return {
 
 
         loading: state.dataLoading,
         detailedView: state.post,
-        post: selectItemByName
+        post: selectItemByName(state)
 
     }
 };
