@@ -23,7 +23,7 @@ const DetailedViewContainer =(props) => {
     if (props.loading === true) {
 
         console.log('props. true..',props.loading)
-        return
+        return <div>Loading</div>
     }
 
     console.log('props..after.',props.loading)
