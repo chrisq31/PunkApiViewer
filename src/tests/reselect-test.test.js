@@ -23,30 +23,3 @@ const exampleState ={
     ]
 }
 
-const getPostItems = exampleState => exampleState.posts;
-const getPostItemById = exampleState => exampleState.posts.id;
-const getPostItemByName = exampleState => exampleState.posts.name;
-
-
- const selectItemByName = createSelector(
-    getPostItems,
-    getPostItemByName,
-    (products, itemIds) => itemIds.map(id => products[id])
-);;
-
-
-
-
-
-describe('reselect get item from store from name', () => {
-    it('should return details for Buzz', () =>{
-
-
-        expect(selectItemByName('Buzz')).toEqual('Buzz')
-
-
-    });
-
-
-
-});
