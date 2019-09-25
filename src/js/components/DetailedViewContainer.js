@@ -24,11 +24,6 @@ const DetailedViewContainer =(props) => {
 
         return <div>Loading</div>
     }
-
-    console.log('props..after.',props.loading)
-
-
-
     return (
         <ItemsContainer className = "row">
             <DetailedViewItem item = {props.post}/>
