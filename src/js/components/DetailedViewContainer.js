@@ -15,14 +15,13 @@ padding-top:100px;
 
 
 const DetailedViewContainer =(props) => {
-    const urlParam = props.location.search.split('?')[1];
-    props.showDetailedView(urlParam);
+    const urlParam =decodeURI( props.location.search.split('?')[1]);
 
-    console.log('props...',props.loading)
+    props.showDetailedView(urlParam);
 
     if (props.loading === true) {
 
-        console.log('props. true..',props.loading)
+
         return <div>Loading</div>
     }
 
@@ -46,7 +45,6 @@ const mapDispatchToProps = dispatch => {
 const mapStateToProps = (state) => {
     return {
         loading: state.dataLoading,
-        detailedView: state.post,
         post: selectItemByName(state)
     }
 };
