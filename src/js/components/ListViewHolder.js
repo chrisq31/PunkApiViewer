@@ -16,11 +16,7 @@ const StyledLink = styled(NavLink)`
 `;
 
 const ListViewHolder =(props)=> {
-
-    console.log('list ',props)
-
     const posts = props.posts;
-
 
     if (props.loading === true) {
 
@@ -37,12 +33,5 @@ const ListViewHolder =(props)=> {
         </ItemsContainer>
     )
 }
-
-
-
-
-
-
-
 export default ListViewHolder
 

@@ -1,6 +1,3 @@
-
-
-
 export const SHOW_DETAILED_VIEW = "SHOW_DETAILED_VIEW";
 
 export const DATA_REQUESTED="DATA_REQUESTED";

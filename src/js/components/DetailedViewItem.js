@@ -3,12 +3,11 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components';
 
 const lightColor = "white";
-const darkColor="#0099CC";
-const bgColor="#000000";
+const darkColor = "#0099CC";
+const bgColor = "#000000";
 
 
 const primaryFontFamily = "league_gothicregular";
-
 
 
 const ItemContainer = styled.div`
@@ -40,9 +39,6 @@ const Img = styled.img`
   max-width: 300px;
     max-height: 500px;
 `;
-
-
-
 
 
 const Title = styled.h2`
@@ -119,8 +115,6 @@ width:100%;
 `;
 
 
-
-
 const FoodSml = styled.h4`
 width:100%;
   font-size: 1em;
@@ -133,49 +127,36 @@ width:100%;
 
 
 
-
-// functional component - no state
-
-function DetailedViewItem( {item} ) {
+function DetailedViewItem({item}) {
 
 
     const name = item.name;
     const id = item.id;
     const tagline = item.tagline;
     const abv = item.abv;
-    const description=item.description;
+    const description = item.description;
     const brewedDate = item.first_brewed;
     const foodPairing = item.food_pairing;
 
 
     return (
+        <div className = "col">
+            <ItemContainer>
+                <BD_Pre> PUNK SINCE </BD_Pre>
+                <BD> {brewedDate} </BD>
+                <Title>{name}</Title>
+                <Tagline>{tagline}</Tagline>
+                <ABV>ABV {abv} %</ABV>
+                <ImageContainer>
+                    <Img src = {item.image_url} alt = {name}/>
+                </ImageContainer>
+                <Description> {description} </Description>
 
-        <div className = "col" >
+                <Food_Pre> -----Tuck 4 Punks----- </Food_Pre>
+                <Food> {foodPairing} </Food>
+                <FoodSml>dry roasted cheese and onion</FoodSml>
 
-        <ItemContainer>
-            <BD_Pre> PUNK SINCE </BD_Pre>
-            <BD> {brewedDate} </BD>
-
-            <Title>{name}</Title>
-            <Tagline>{tagline}</Tagline>
-            <ABV>ABV {abv} %</ABV>
-
-            <ImageContainer>
-                <Img src={item.image_url} alt ={name} />
-            </ImageContainer>
-
-            <Description> {description} </Description>
-
-            <Food_Pre> -----Tuck 4 Punks----- </Food_Pre>
-            <Food> {foodPairing} </Food>
-            <FoodSml>dry roasted cheese and onion</FoodSml>
-
-
-
-
-
-        </ItemContainer>
-
+            </ItemContainer>
 
         </div>
     );
