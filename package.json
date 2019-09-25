@@ -2,7 +2,7 @@
   "name": "punkapi-explorer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/chrisq31/PunkApiViewer",
+  "homepage": "https://github.com/chrisq31/PunkApiViewer/build",
   "dependencies": {
     "@types/jest": "24.0.17",
     "@types/node": "12.7.1",
