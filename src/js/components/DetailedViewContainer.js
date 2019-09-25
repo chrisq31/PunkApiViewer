@@ -22,9 +22,15 @@ padding-top:100px;
 // function component
 function DetailedViewContainer (props)
 {
-
+console.log('props',props)
 
     const urlParam = props.location.search.split('?')[1];
+
+console.log('props.loading' ,props.loading)
+    console.log('detailedView' ,props.detailedView)
+
+    console.log('props.post' ,props.post)
+
 
     props.showDetailedView(urlParam);
 
@@ -33,10 +39,16 @@ function DetailedViewContainer (props)
     return
     }
 
+    console.log('lafter...')
+    console.log('props.loading' ,props.loading)
+    console.log('detailedView' ,props.detailedView)
+
+    console.log('props.post' ,props.post)
+
 
     return (
         <ItemsContainer className ="row">
-            <DetailedViewItem item={props.post} />
+            {/*<DetailedViewItem item={props.post} />*/}
         </ItemsContainer>
     )
 }
@@ -45,15 +57,21 @@ const mapDispatchToProps = dispatch => {
     return {
 
 
-
         showDetailedView: beerView => dispatch(showDetailedView(beerView))
     }
 }
 
-const mapStateToProps = state => ({
-    loading: state.dataLoading,
-    post: selectItemByName
-});
+const mapStateToProps = (state) => {
+
+    return {
+
+
+        loading: state.dataLoading,
+        detailedView: state.post,
+        post: selectItemByName
+
+    }
+};
 
 export default connect(mapStateToProps,mapDispatchToProps)(DetailedViewContainer);
 

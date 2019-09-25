@@ -3,6 +3,7 @@ import { DATA_REQUESTED,DATA_LOADED,API_ERRORED,SHOW_DETAILED_VIEW,APP_READY} fr
 import { takeEvery, takeLatest,call, put,all } from "redux-saga/effects";
 import axios from 'axios';
 
+/*
 function* watcherGetDetailedViewSaga() {
     yield takeEvery(SHOW_DETAILED_VIEW, workerGetDetailedSaga);
 }
@@ -17,6 +18,7 @@ function* workerGetDetailedSaga() {
         yield put({ type: API_ERRORED, payload: e });
     }
 }
+*/
 
 
 
@@ -64,7 +66,7 @@ export default function* rootSaga() {
     yield all([
         watcherDataLoaded,
         watcherGetDataSaga(),
-        watcherGetDetailedViewSaga()
+
 
 
     ])

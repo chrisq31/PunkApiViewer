@@ -3,7 +3,7 @@ import * as types from '../constants/action-types'
 
 const initialState = {
     dataLoading:true,
-  detailedView: ["Buzz"],
+  post: "Buzz",
     menuState:['Home'],
   posts: []
 };
@@ -39,9 +39,9 @@ function rootReducer(state = initialState, action) {
 
          case types.SHOW_DETAILED_VIEW:
 
-             console.log ('SHOW_DETAILED_VIEW reducer',action.payload)
+             console.log ('SHOW_DETAILED_VIEW reducer........................',action.payload)
             // console.log ('SHOW_DETAILED_VIEW reducer state',state)
-            return {...state, detailedView: action.payload}
+            return {...state, post: action.payload}
 
 
         default:

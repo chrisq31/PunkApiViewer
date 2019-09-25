@@ -3,7 +3,7 @@ import {createSelector} from "reselect";
 const selectPosts = state => state.posts;
 const selectItemId = (state, itemId) => itemId-1; // simply getting by index of posts
 
-const selectedPost = (state) => state.detailedView;
+const selectedPost = (state) => state.post;
 
 
 
@@ -55,7 +55,7 @@ export const selectItemById = createSelector(
 export const selectItemByName = createSelector(
     [selectPosts, selectedPost],
     (posts, searchName) => {
-
+        console.log('result resultresult ')
         let result = posts.filter(post => post.name.match(new RegExp(searchName, 'i')))[0]
 
         console.log('result resultresult ',result)
