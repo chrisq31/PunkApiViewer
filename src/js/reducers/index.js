@@ -14,11 +14,10 @@ function rootReducer(state = initialState, action) {
     switch (action.type) {
 
         case types.DATA_REQUESTED:
+            return {...state, dataLoading: true}
 
-            return
-
-        case types.DATA_LOADED:
-            // randomise, so that the id of each entry object does not
+            case types.DATA_LOADED:
+                // randomise, so that the id of each entry object does not
             // necessarily match the index of the objects position
             // in the array - this should be done in tests really.
             //maybe not
