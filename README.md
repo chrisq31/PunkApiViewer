@@ -95,6 +95,7 @@ reducers/index
 
 ...
 
+        
         function rootReducer(state = initialState, action) {
         ...
         case types.DATA_LOADED:
