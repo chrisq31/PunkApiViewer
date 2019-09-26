@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chrisq31/PunkApiViewer/static/css/main.6b66ec84.chunk.css",
-    "main.js": "/chrisq31/PunkApiViewer/static/js/main.7fa09103.chunk.js",
-    "main.js.map": "/chrisq31/PunkApiViewer/static/js/main.7fa09103.chunk.js.map",
-    "runtime~main.js": "/chrisq31/PunkApiViewer/static/js/runtime~main.230d656c.js",
-    "runtime~main.js.map": "/chrisq31/PunkApiViewer/static/js/runtime~main.230d656c.js.map",
-    "static/js/2.8ee60947.chunk.js": "/chrisq31/PunkApiViewer/static/js/2.8ee60947.chunk.js",
-    "static/js/2.8ee60947.chunk.js.map": "/chrisq31/PunkApiViewer/static/js/2.8ee60947.chunk.js.map",
-    "index.html": "/chrisq31/PunkApiViewer/index.html",
-    "precache-manifest.02aa9ef1bad68e8ff128110556358be7.js": "/chrisq31/PunkApiViewer/precache-manifest.02aa9ef1bad68e8ff128110556358be7.js",
-    "service-worker.js": "/chrisq31/PunkApiViewer/service-worker.js",
-    "static/css/main.6b66ec84.chunk.css.map": "/chrisq31/PunkApiViewer/static/css/main.6b66ec84.chunk.css.map",
-    "static/media/index.css": "/chrisq31/PunkApiViewer/static/media/logo.a9dbc334.svg"
+    "main.css": "/chrisq31/PunkApiViewer/build/static/css/main.7fa38488.chunk.css",
+    "main.js": "/chrisq31/PunkApiViewer/build/static/js/main.10ea9a8f.chunk.js",
+    "main.js.map": "/chrisq31/PunkApiViewer/build/static/js/main.10ea9a8f.chunk.js.map",
+    "runtime~main.js": "/chrisq31/PunkApiViewer/build/static/js/runtime~main.8aecc337.js",
+    "runtime~main.js.map": "/chrisq31/PunkApiViewer/build/static/js/runtime~main.8aecc337.js.map",
+    "static/js/2.112ce3fb.chunk.js": "/chrisq31/PunkApiViewer/build/static/js/2.112ce3fb.chunk.js",
+    "static/js/2.112ce3fb.chunk.js.map": "/chrisq31/PunkApiViewer/build/static/js/2.112ce3fb.chunk.js.map",
+    "index.html": "/chrisq31/PunkApiViewer/build/index.html",
+    "precache-manifest.663ff799eb2ba6dc145d476d709c0961.js": "/chrisq31/PunkApiViewer/build/precache-manifest.663ff799eb2ba6dc145d476d709c0961.js",
+    "service-worker.js": "/chrisq31/PunkApiViewer/build/service-worker.js",
+    "static/css/main.7fa38488.chunk.css.map": "/chrisq31/PunkApiViewer/build/static/css/main.7fa38488.chunk.css.map",
+    "static/media/index.css": "/chrisq31/PunkApiViewer/build/static/media/logo.a9dbc334.svg"
   }
 }
