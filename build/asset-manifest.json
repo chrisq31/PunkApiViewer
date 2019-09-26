@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chrisq31/PunkApiViewer/build/static/css/main.7fa38488.chunk.css",
-    "main.js": "/chrisq31/PunkApiViewer/build/static/js/main.10ea9a8f.chunk.js",
-    "main.js.map": "/chrisq31/PunkApiViewer/build/static/js/main.10ea9a8f.chunk.js.map",
-    "runtime~main.js": "/chrisq31/PunkApiViewer/build/static/js/runtime~main.8aecc337.js",
-    "runtime~main.js.map": "/chrisq31/PunkApiViewer/build/static/js/runtime~main.8aecc337.js.map",
-    "static/js/2.112ce3fb.chunk.js": "/chrisq31/PunkApiViewer/build/static/js/2.112ce3fb.chunk.js",
-    "static/js/2.112ce3fb.chunk.js.map": "/chrisq31/PunkApiViewer/build/static/js/2.112ce3fb.chunk.js.map",
-    "index.html": "/chrisq31/PunkApiViewer/build/index.html",
-    "precache-manifest.663ff799eb2ba6dc145d476d709c0961.js": "/chrisq31/PunkApiViewer/build/precache-manifest.663ff799eb2ba6dc145d476d709c0961.js",
-    "service-worker.js": "/chrisq31/PunkApiViewer/build/service-worker.js",
-    "static/css/main.7fa38488.chunk.css.map": "/chrisq31/PunkApiViewer/build/static/css/main.7fa38488.chunk.css.map",
-    "static/media/index.css": "/chrisq31/PunkApiViewer/build/static/media/logo.a9dbc334.svg"
+    "main.css": "/static/css/main.38e25e4d.chunk.css",
+    "main.js": "/static/js/main.ba0be7c5.chunk.js",
+    "main.js.map": "/static/js/main.ba0be7c5.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.0459edaa.js",
+    "runtime~main.js.map": "/static/js/runtime~main.0459edaa.js.map",
+    "static/js/2.8ebf5412.chunk.js": "/static/js/2.8ebf5412.chunk.js",
+    "static/js/2.8ebf5412.chunk.js.map": "/static/js/2.8ebf5412.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b1cf0a2544bce3ef2f869e79f1346294.js": "/precache-manifest.b1cf0a2544bce3ef2f869e79f1346294.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.38e25e4d.chunk.css.map": "/static/css/main.38e25e4d.chunk.css.map",
+    "static/media/index.css": "/static/media/logo.a9dbc334.svg"
   }
 }

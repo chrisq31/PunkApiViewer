@@ -72,6 +72,12 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 notes -CQC
 
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  serve -s build
+
+
 I have used the beer name instead of id to fetch the beer.
 I could use id, as is simpler, though is not as readable for the viewer -
 especially for bookmarking/refresh/deeplink.
