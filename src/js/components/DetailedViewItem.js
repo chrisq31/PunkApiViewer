@@ -80,7 +80,7 @@ padding:10% 30%;
   font-family: ${primaryFontFamily};
 `;
 
-const BD_Pre = styled.h3`
+const BDPre = styled.h3`
 width:100%;
   font-size: 4em;
   text-align: center;
@@ -106,7 +106,7 @@ width:100%;
   padding 10px 50%;
 `;
 
-const Food_Pre = styled.h3`
+const FoodPre = styled.h3`
 width:100%;
   font-size: 3em;
   text-align: center;
@@ -131,7 +131,6 @@ function DetailedViewItem({item}) {
 
 
     const name = item.name;
-    const id = item.id;
     const tagline = item.tagline;
     const abv = item.abv;
     const description = item.description;
@@ -142,7 +141,7 @@ function DetailedViewItem({item}) {
     return (
         <div className = "col">
             <ItemContainer>
-                <BD_Pre> PUNK SINCE </BD_Pre>
+                <BDPre> PUNK SINCE </BDPre>
                 <BD> {brewedDate} </BD>
                 <Title>{name}</Title>
                 <Tagline>{tagline}</Tagline>
@@ -152,7 +151,7 @@ function DetailedViewItem({item}) {
                 </ImageContainer>
                 <Description> {description} </Description>
 
-                <Food_Pre> -----Tuck 4 Punks----- </Food_Pre>
+                <FoodPre> -----Tuck 4 Punks----- </FoodPre>
                 <Food> {foodPairing} </Food>
                 <FoodSml>dry roasted cheese and onion</FoodSml>
 

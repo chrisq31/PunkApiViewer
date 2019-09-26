@@ -1,6 +1,6 @@
-import {DATA_REQUESTED, DATA_LOADED, API_ERRORED, APP_READY} from "../constants/action-types";
+import {DATA_REQUESTED, DATA_LOADED, API_ERRORED} from "../constants/action-types";
 
-import {takeEvery, takeLatest, call, put, all} from "redux-saga/effects";
+import {takeLatest, call, put, all} from "redux-saga/effects";
 import axios from 'axios';
 
 
@@ -30,22 +30,8 @@ function getDataAxios() {
 }
 
 
-function* watcherDataLoaded() {
-    yield takeEvery(APP_READY, workerDataLoadedSaga);
-}
-
-function* workerDataLoadedSaga() {
-
-    console.log('workerDataLoadedSaga....')
-
-}
-
-
 export default function* rootSaga() {
     yield all([
-        watcherDataLoaded,
         watcherGetDataSaga(),
-
-
     ])
 }
