@@ -1,6 +1,6 @@
 # Punkapi Viewer
 
-Thank you for interviewing at Beerbylon!
+
 
 Our mission is affordable beer for everyone on the planet, and the first goal is a nice interface for the [open Punk API]. You are to read their docs as needed and use endpoints such as `https://api.punkapi.com/v2/beers` to create two routes / UI views:
 
