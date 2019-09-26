@@ -24,7 +24,7 @@ width:100%;
 
 const Tagline = styled.h3`
 width:100%;
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
   color: ${bgColor};
   font-family: ${primaryFontFamily};
@@ -49,7 +49,7 @@ function AboutView () {
         <div className = "col" >
         <ItemsContainer className ="row">
             <Title>About this Project</Title>
-            <Tagline>- By Chris Quinn -</Tagline>
+            <Tagline> By Chris Quinn quinn.uk@gmail.com</Tagline>
             <CopyText>Our mission is affordable beer for everyone on the planet, and the first goal is a nice interface for the [open Punk API].
                 <br /><br />
                </CopyText>
