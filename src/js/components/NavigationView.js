@@ -40,7 +40,7 @@ text-transform: uppercase;
 const Title = styled.h1`
 white-space: nowrap;
   font-size: 4.5rem;
-  text-align: center;
+  text-align: left;
   color: ${lightColor};
   font-family: ${primaryFontFamily};
   font-weight:bold;
