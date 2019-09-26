@@ -71,6 +71,11 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 
 notes -CQC
+
+I have used the beer name instead of id to fetch the beer.
+I could use id, as is simpler, though is not as readable for the viewer -
+especially for bookmarking/refresh/deeplink.
+
 I have randomised the response received from the punk api; 
 this is so that I can check the ids from the response do not
 match the index of the item.

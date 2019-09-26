@@ -19,8 +19,7 @@ const ItemContainer = styled.div`
    background-color:${bgColor};
    overflow:hidden;
    display:flex;
- 
-   flex-direction: column;
+  flex-direction: column;
    margin:20px;
     padding:0;
    
