@@ -78,7 +78,8 @@ especially for bookmarking/refresh/deeplink.
 
 I have randomised the response received from the punk api; 
 this is so that I can check the ids from the response do not
-match the index of the item.
+match the index of the item. This is no longer necessary as I am using 
+names instead. But it was helpful in checking ids.
 
 TODO use mock tests for this, as response should be same as 
 api response 
