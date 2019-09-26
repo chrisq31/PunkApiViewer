@@ -10,12 +10,11 @@ const initialState = {
 
 function rootReducer(state = initialState, action) {
 
-    console.log('switch (action.type)', action.type)
 
     switch (action.type) {
 
         case types.DATA_REQUESTED:
-            console.log('DATA_REQUESTED')
+
             return
 
         case types.DATA_LOADED:

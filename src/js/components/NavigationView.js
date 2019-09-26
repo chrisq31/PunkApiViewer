@@ -52,8 +52,6 @@ white-space: nowrap;
 
 function NavigationView(props) {
 
-    console.log('Nav props',props.menuState)
-
     if (props.loading === true) {
 
         return <div>Loading</div>
